@@ -54,12 +54,9 @@ video {
     header {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 10rem 1fr 1fr;
         justify-items: center;
         align-items: center;
-
     }
-
 
     .header__nav {
         display: grid;
@@ -79,9 +76,7 @@ video {
     }
 
     .header_banner {
-        grid-column: span 2;
-        grid-row: 2/4;
-        z-index: -1;
+         z-index: -1;
 
     }
 
@@ -303,8 +298,8 @@ video {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 30px 2fr;
-        justify-items: center;
-        align-items: center;
+        justify-content: center;
+        align-content: center;
 
     }
 
@@ -333,12 +328,12 @@ video {
     .banner__titulo {
         position: absolute;
         text-align: left;
-        top: 65%;
-        margin-left: 10%;
+        margin-top: 8rem;
+        margin-left: 8%;
         max-width: 100%;
         min-width: 20%;
         color: aliceblue;
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: bold;
         line-height: 2.7rem;
     }
@@ -437,6 +432,7 @@ video {
     }
 
     .cursos__texto h2 {
+        margin-top: 2rem;
         font-size: 2.5rem;
         color: #e5a571;
     }
@@ -450,7 +446,9 @@ video {
         flex-wrap: wrap;
         justify-items: center;
         align-items: center;
-        gap: 1rem;
+        gap: 1.5rem;
+        text-align: center;
+
     }
 
     .cursos__articulos h3 {
@@ -465,9 +463,102 @@ video {
         border-style: solid;
         border-radius: 10px;
     }
+    /*-----FOOTER mobile----*/
+
+    footer {
+        background-color: #ffeecd;
+        text-decoration: none;
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-items: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .footer__logo {
+        margin-top: 2rem;
+        max-width: 15rem;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .footer-form {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 1rem;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .footer-enviar {
+        grid-column: 2/3;
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .redes__iconos {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        gap: 1rem;
+        max-width: 3rem;
+        min-width: 2rem;
+        align-items: center;
+        justify-items: center;
+
+    }
+
+    .redes__iconos img {
+        max-width: 20%;
+    }
+
+    .redes__iconos li {
+        display: flex;
+        flex-direction: rown;
+        flex-wrap: nowrap;
+        gap: 0.9rem;
+    }
+
+    footer h4 {
+        font-size: 1rem;
+    }
 
 
+/*-----SECCION TIENDA----*/
 
+.tienda__banner {
+    height: 30vh;
+    background-image: url(../img/banner-tienda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tienda__banner h1 {
+    color: white;
+    font-size: 5rem;
+    font-weight: bold;
+}
 
 
 }
@@ -489,7 +580,6 @@ video {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 
