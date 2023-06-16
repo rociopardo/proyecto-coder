@@ -49,7 +49,7 @@ video {
 
 /*-----INDEX-HEADER desktop----*/
 
-@media (min-width: 481px) {
+@media (min-width: 1024px) {
 
     header {
         display: grid;
@@ -297,7 +297,7 @@ video {
 /*-----INDEX-mobile----*/
 
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 375px) and (max-width: 420px) {
     header {
         max-width: 100%;
         display: grid;
