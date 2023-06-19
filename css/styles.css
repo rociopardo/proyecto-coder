@@ -683,6 +683,38 @@ video {
     font-weight: bold;
 }
 
+.tienda__delicatessen {
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.tienda__delicatessen h2 {
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.tienda__delicatessen .tienda__btn {
+    border-width: 0.1rem;
+    padding: 0.5rem;
+    border-color: #e5a571;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.tienda__cantidad {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;    
+}
+
 /*-----SECCION CATERING----*/
 
 .catering__banner {
