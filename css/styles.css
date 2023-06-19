@@ -705,6 +705,27 @@ video {
     font-weight: bold;
 }
 
+.catering__contenido {
+    max-width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.catering__contenido .catering__texto {
+    max-width: 30vw;
+    margin-top: 4rem;
+}
+
+.catering__contenido img {
+    max-width: 30vw;
+}
+
+
 /*-----SECCION CURSOS----*/
 
 .cursos__banner {
@@ -725,4 +746,41 @@ video {
     color: white;
     font-size: 5rem;
     font-weight: bold;
+}
+
+.cursos__nav {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.cursos__cantidad {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+}
+
+#cursos__curso-uno a {
+    max-width: 8vw;
+    max-height: 5vh;
+    text-align: center;
+}
+
+
+#cursos__curso-uno {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10vh 1fr 10vh 10vh;
+    gap: 1rem;
+}
+
+#cursos__curso-uno img {
+    grid-column: 1/2;
+    grid-row: 1/5;
 }
