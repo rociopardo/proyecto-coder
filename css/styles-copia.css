@@ -1,0 +1,818 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-family: "Josefin Sans", sans-serif;
+}
+
+p {
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+    font-family: "Josefin Sans", sans-serif;
+}
+
+ul,
+ol {
+    list-style: none;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+video {
+    max-width: 100%;
+}
+
+
+/*-----INDEX-HEADER desktop----*/
+
+@media (min-width: 1024px) {
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .header__nav {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        align-items: center;
+        font-family: sans-serif;
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+
+    .header__logo {
+        max-width: 15rem;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .header_banner {
+        z-index: -1;
+
+    }
+
+
+    .banner__titulo {
+        position: absolute;
+        text-align: left;
+        top: 60%;
+        margin-left: 10%;
+        max-width: 100%;
+        min-width: 20%;
+        color: aliceblue;
+        font-size: 5rem;
+    }
+
+
+    .video1 {
+        max-height: 80vw;
+        z-index: -1;
+
+    }
+
+    /*-----INDEX-DELICATESSEN desktop----*/
+
+    .delicatessen {
+        padding: 5%;
+        max-width: 100%;
+    }
+
+    .delicatessen__texto {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .delicatessen__contenedor {
+        margin: auto;
+        max-width: 90%;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .delicatessen__articulos {
+        position: relative;
+    }
+
+    .delicatessen__titulos {
+        position: absolute;
+        color: white;
+        font-size: 1.5rem;
+
+    }
+
+    .delicatessen__img-grande {
+        grid-row: 1/3;
+    }
+
+    /*-----INDEX-CATERING desktop----*/
+
+
+
+    .catering {
+        background-color: rgb(244, 227, 202);
+        max-height: 50vh;
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+
+    }
+
+    .catering__texto {
+        max-width: 70%;
+        min-width: 10rem;
+        margin: 1rem;
+        grid-column: 1/2;
+        justify-content: end;
+    }
+
+    .catering__img {
+        max-width: 50%;
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+
+    .catering__btn {
+        border-width: 0.1rem;
+        padding: 0.5rem;
+        border-color: #e5a571;
+        border-style: solid;
+        border-radius: 10px;
+    }
+
+
+    /*-----INDEX CURSOS desktop----*/
+
+    .cursos {
+        padding: 5%;
+        max-width: 100%;
+
+    }
+
+    .cursos__texto {
+        max-width: 90%;
+        margin: auto;
+    }
+
+
+    .cursos__articulos {
+
+        margin: auto;
+        margin-top: 2rem;
+        max-width: 65vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .cursos__articulos h3 {
+        margin-top: 1rem;
+        color: #e5a571;
+
+    }
+
+    .cursos__btn {
+        border-width: 0.1rem;
+        padding: 0.5rem;
+        border-color: #e5a571;
+        border-style: solid;
+        border-radius: 10px;
+    }
+
+
+    /*-----INDEX FOOTER desktop----*/
+
+    footer {
+        background-color: #ffeecd;
+        text-decoration: none;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        justify-items: center;
+        align-items: center;
+        max-width: 90%;
+    }
+
+    .footer__logo {
+        max-width: 15rem;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .footer-form {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 1rem;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .footer-enviar {
+        grid-column: 2/3;
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .redes__iconos {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        gap: 1rem;
+        max-width: 3rem;
+        min-width: 2rem;
+        align-items: center;
+        justify-items: center;
+
+    }
+
+    .redes__iconos img {
+        max-width: 20%;
+    }
+
+    .redes__iconos li {
+        display: flex;
+        flex-direction: rown;
+        flex-wrap: nowrap;
+        gap: 0.9rem;
+    }
+
+    footer h4 {
+        font-size: 1rem;
+    }
+
+
+    /*-----SECCION CONTACTO desktop----*/
+
+    .contacto__banner {
+        height: 30vh;
+        background-image: url(../img/banner-contacto.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contacto__banner h1 {
+        color: white;
+        font-size: 5rem;
+        font-weight: bold;
+    }
+
+    .contacto__cuerpo {
+        max-width: 90%;
+        margin: auto;
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .contacto__form {
+        font-family: "Josefin Sans", sans-serif;
+        color: rgb(50, 50, 50);
+    }
+
+    .contacto__form-celdas {
+        margin-top: 1rem;
+
+    }
+
+
+
+}
+
+/*-----INDEX-mobile----*/
+
+
+@media (min-width: 375px) and (max-width: 420px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 30px;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    .header__logo {
+        width: 50vw;
+        margin: auto;
+        grid-row: 1/2;
+    }
+
+    .header__nav {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        align-items: center;
+        gap: 1rem;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 1rem;
+        text-transform: uppercase;
+        grid-row: 2/3;
+    }
+
+    .banner__titulo {
+        position: absolute;
+        text-align: left;
+        margin-top: 7rem;
+        margin-left: 8%;
+        max-width: 100%;
+        min-width: 20%;
+        color: aliceblue;
+        font-size: 2.5rem;
+        font-weight: bold;
+        line-height: 2.7rem;
+    }
+
+    .video1 {
+        max-height: 100%;
+        z-index: -1;
+    }
+
+
+    .delicatessen {
+        padding: 5%;
+        max-width: 100%;
+    }
+
+    .delicatessen__texto {
+        max-width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .delicatessen__contenedor {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 240px 1fr 1fr;
+        gap: 0.3rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .delicatessen__articulos {
+        position: relative;
+    }
+
+    .delicatessen__titulos {
+        position: absolute;
+        color: white;
+        font-size: 1.5rem;
+
+    }
+
+    .delicatessen__img-grande {
+        grid-row: 1/2;
+        grid-column: 1/3;
+    }
+
+    .delicatessen h2 {
+        font-size: 2.5rem;
+        color: #e5a571;
+    }
+
+
+    /*-----INDEX-CATERING mobile----*/
+
+    .catering {
+        background-color: rgb(244, 227, 202);
+        max-height: 60vh;
+        padding: 1rem;
+
+
+    }
+
+    .catering__texto {
+        margin: 1rem;
+        text-align: center;
+    }
+
+    .catering__texto h2 {
+        font-size: 2.5rem;
+    }
+
+    .catering__img {
+        display: none;
+    }
+
+    .catering__btn {
+        border-width: 0.1rem;
+        padding: 0.5rem;
+        border-color: #e5a571;
+        border-style: solid;
+        border-radius: 10px;
+    }
+
+    /*-----INDEX CURSOS mobile----*/
+
+    .cursos {
+        padding: 5%;
+        max-width: 100%;
+
+    }
+
+    .cursos__texto {
+        max-width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .cursos__texto h2 {
+        margin-top: 2rem;
+        font-size: 2.5rem;
+        color: #e5a571;
+    }
+
+    .cursos__articulos {
+        margin: auto;
+        margin-top: 2rem;
+        max-width: 65vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-items: center;
+        align-items: center;
+        gap: 1.5rem;
+        text-align: center;
+
+    }
+
+    .cursos__articulos h3 {
+        margin-top: 1rem;
+        color: #e5a571;
+    }
+
+    .cursos__btn {
+        border-width: 0.1rem;
+        padding: 0.5rem;
+        border-color: #e5a571;
+        border-style: solid;
+        border-radius: 10px;
+    }
+
+    /*-----FOOTER mobile----*/
+
+    footer {
+        background-color: #ffeecd;
+        text-decoration: none;
+        height: 55vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-items: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .footer__logo {
+        margin-top: 2rem;
+        max-width: 15rem;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .footer-form {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 1rem;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .footer-enviar {
+        grid-column: 2/3;
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .redes__iconos {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        gap: 1rem;
+        max-width: 3rem;
+        min-width: 2rem;
+        align-items: center;
+        justify-items: center;
+
+    }
+
+    .redes__iconos img {
+        max-width: 20%;
+    }
+
+    .redes__iconos li {
+        display: flex;
+        flex-direction: rown;
+        flex-wrap: nowrap;
+        gap: 0.9rem;
+    }
+
+    footer h4 {
+        font-size: 1rem;
+    }
+
+
+    /*-----SECCION TIENDA mobile----*/
+
+    .tienda__banner {
+        height: 30vh;
+        background-image: url(../img/banner-tienda.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .tienda__banner h1 {
+        color: white;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    /*-----SECCION CONTACTO mobile----*/
+
+    .contacto__banner {
+        height: 30vh;
+        background-image: url(../img/banner-contacto.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contacto__banner h1 {
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .contacto__cuerpo {
+        max-width: 90vw;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .contacto__form {
+        font-family: "Josefin Sans", sans-serif;
+        color: rgb(50, 50, 50);
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .contacto__form-celdas {
+        margin-top: 1rem;
+    }
+
+    .contacto__mapa {
+        margin-top: 2rem;
+        max-width: 95vw;
+    }
+
+}
+
+
+
+
+
+/*-----SECCION TIENDA----*/
+
+.tienda__banner {
+    height: 30vh;
+    background-image: url(../img/banner-tienda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tienda__banner h1 {
+    color: white;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.tienda__delicatessen {
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.tienda__delicatessen h2 {
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.tienda__delicatessen .tienda__btn {
+    border-width: 0.1rem;
+    padding: 0.5rem;
+    border-color: #e5a571;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.tienda__cantidad {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;    
+}
+
+/*-----SECCION CATERING----*/
+
+.catering__banner {
+    height: 30vh;
+    background-image: url(../img/banner-catering.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.catering__banner h1 {
+    color: white;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.catering__contenido {
+    max-width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.catering__contenido .catering__texto {
+    max-width: 30vw;
+    margin-top: 4rem;
+}
+
+.catering__contenido img {
+    max-width: 30vw;
+}
+
+
+/*-----SECCION CURSOS----*/
+
+.cursos__banner {
+    height: 30vh;
+    background-image: url(../img/banner-cursos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cursos__banner h1 {
+    color: white;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.cursos__nav {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.cursos__cantidad {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+}
+
+#cursos__curso-uno a {
+    max-width: 8vw;
+    max-height: 5vh;
+    text-align: center;
+}
+
+
+#cursos__curso-uno {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10vh 1fr 10vh 10vh;
+    gap: 1rem;
+}
+
+#cursos__curso-uno img {
+    grid-column: 1/2;
+    grid-row: 1/5;
+}

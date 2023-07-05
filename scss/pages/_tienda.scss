@@ -1,0 +1,62 @@
+@media (min-width: 1024px) {
+    .tienda {
+        &__banner {
+            height: 30vh;
+            background-image: url(../img/banner-tienda.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            & h1 {
+                color: white;
+                font-size: 5rem;
+                font-weight: bold;
+            }
+        }
+
+        &__delicatessen {
+            max-width: 80vw;
+            margin: auto;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 2rem;
+
+            & h2 {
+                gap: 1rem;
+                margin-top: 1rem;
+            }
+
+            & .tienda__btn {
+                border-width: 0.1rem;
+                padding: 0.5rem;
+                border-color: $color_principal;
+                border-style: solid;
+                border-radius: 10px;
+            }
+        }
+
+        &__cantidad {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-items: center;
+            align-items: center;
+        }
+    }
+}
+
+@media (min-width: 421px) and (max-width: 1023px) {}
+
+
+
+
+
+@media (min-width: 375px) and (max-width: 420px) {}

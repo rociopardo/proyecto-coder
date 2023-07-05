@@ -1,0 +1,68 @@
+@media (min-width: 1024px) {
+
+    .cursos {
+        &__banner {
+            height: 30vh;
+            background-image: url(../img/banner-cursos.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            & h1 {
+                color: white;
+                font-size: 5rem;
+                font-weight: bold;
+            }
+        }
+
+        &__nav {
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+            justify-content: center;
+            margin-top: 2rem;
+            font-size: 1.5rem;
+        }
+
+        &__cantidad {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-items: center;
+            align-items: center;
+        }
+    }
+
+    #cursos__curso-uno {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 10vh 1fr 10vh 10vh;
+        gap: 1rem;
+
+        & a {
+            max-width: 8vw;
+            max-height: 5vh;
+            text-align: center;
+        }
+
+        & img {
+            grid-column: 1/2;
+            grid-row: 1/5;
+        }
+
+    }
+}
+
+@media (min-width: 421px) and (max-width: 1023px) {}
+
+
+
+
+
+@media (min-width: 375px) and (max-width: 420px) {}

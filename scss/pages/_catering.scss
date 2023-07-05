@@ -1,0 +1,51 @@
+@media (min-width: 1024px) {
+
+    .catering {
+        &__banner {
+            height: 30vh;
+            background-image: url(../img/banner-catering.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            & h1 {
+                color: white;
+                font-size: 5rem;
+                font-weight: bold;
+            }
+        }
+
+        &__contenido {
+            max-width: 90%;
+            margin: auto;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+
+            & .catering__texto {
+                max-width: 30vw;
+                margin-top: 4rem;
+            }
+
+            & img {
+                max-width: 30vw;
+            }
+        }
+    }
+}
+
+@media (min-width: 421px) and (max-width: 1023px) {}
+
+
+
+
+
+@media (min-width: 375px) and (max-width: 420px) {}

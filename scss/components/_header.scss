@@ -1,0 +1,71 @@
+@media (min-width: 1024px) {
+    header {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .header {
+        &__nav {
+            display: grid;
+            gap: 2rem;
+            grid-template-columns: repeat(4, 1fr);
+            justify-items: center;
+            align-items: center;
+            font-family: sans-serif;
+            font-size: 1rem;
+            text-transform: uppercase;
+        }
+
+        &__logo {
+            max-width: 15rem;
+            justify-items: center;
+            align-items: center;
+        }
+
+        &_banner {
+            z-index: -1;
+        }
+    }
+}
+
+
+@media (min-width: 421px) and (max-width: 1023px) {}
+
+
+
+
+
+@media (min-width: 375px) and (max-width: 420px) {
+    header {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 30px;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .header {
+        &__logo {
+            width: 50vw;
+            margin: auto;
+            grid-row: 1/2;
+        }
+
+        &__nav {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            justify-items: center;
+            align-items: center;
+            gap: 1rem;
+            font-family: "Josefin Sans", sans-serif;
+            font-size: 1rem;
+            text-transform: uppercase;
+            grid-row: 2/3;
+        }
+    }
+
+}
