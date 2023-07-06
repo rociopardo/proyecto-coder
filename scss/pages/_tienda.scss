@@ -59,4 +59,59 @@
 
 
 
-@media (min-width: 375px) and (max-width: 420px) {}
+@media (min-width: 375px) and (max-width: 420px) {
+    .tienda {
+        &__banner {
+            height: 30vh;
+            background-image: url(../img/banner-tienda_mobile.jpg);
+            max-width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            & h1 {
+                color: white;
+                font-size: 2rem;
+                font-weight: bold;
+            }
+        }
+
+        &__delicatessen {
+            max-width: 80vw;
+            margin: auto;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+
+            & h2 {
+                gap: 1rem;
+                margin-top: 1rem;
+            }
+
+            & .tienda__btn {
+                border-width: 0.1rem;
+                padding: 0.5rem;
+                border-color: $color_principal;
+                border-style: solid;
+                border-radius: 10px;
+            }
+            & article{
+                margin-bottom: 1rem;
+            }
+        }
+
+        &__cantidad {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-items: center;
+            align-items: center;
+        }
+    }
+}

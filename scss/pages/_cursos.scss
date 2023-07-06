@@ -65,4 +65,48 @@
 
 
 
-@media (min-width: 375px) and (max-width: 420px) {}
+@media (min-width: 375px) and (max-width: 420px) {
+    .cursos {
+        max-width: 80vw;
+        margin: auto;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        text-align: center;
+
+        &__banner {
+            height: 30vh;
+            background-image: url(../img/banner-cursos_mobile.jpg);
+            max-width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            & h1 {
+                color: white;
+                font-size: 2rem;
+                font-weight: bold;
+            }
+        }
+
+        &__nav {
+            display: none;
+        }
+
+        &__cantidad {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-items: center;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+
+    }
+}

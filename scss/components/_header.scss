@@ -5,6 +5,10 @@
         grid-template-columns: 1fr 1fr;
         justify-items: center;
         align-items: center;
+
+        & nav.navbar {
+            display: none;
+        }
     }
 
     .header {
@@ -42,29 +46,35 @@
     header {
         max-width: 100%;
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 30px;
+        grid-template-columns: 2fr 1fr;
         justify-content: center;
         align-content: center;
+
+        & nav.navbar {
+            grid-column: 2/3;
+            grid-row: 1/2;
+            align-content: right;
+            max-width: 3rem;
+            margin: auto;
+
+            & .offcanvas {
+                background-color: #cad6aeee;
+                font-size: 1.5rem;
+
+            }
+        }
+
     }
 
     .header {
         &__logo {
             width: 50vw;
             margin: auto;
-            grid-row: 1/2;
+            grid-column: 1/2;
         }
 
         &__nav {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            justify-items: center;
-            align-items: center;
-            gap: 1rem;
-            font-family: "Josefin Sans", sans-serif;
-            font-size: 1rem;
-            text-transform: uppercase;
-            grid-row: 2/3;
+            display: none;
         }
     }
 

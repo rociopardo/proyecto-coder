@@ -163,6 +163,12 @@
 
         &__articulos {
             position: relative;
+            & a{
+                display: grid;
+                align-items: center;
+                justify-items: center;
+                position: relative;
+            }
         }
 
         &__titulos {
@@ -174,6 +180,12 @@
         &__img-grande {
             grid-row: 1/2;
             grid-column: 1/3;
+            & a{
+                display: grid;
+                align-items: center;
+                justify-items: center;
+                position: relative;
+            }
         }
 
         & h2 {
@@ -197,8 +209,6 @@
             }
         }
 
-
-
         &__img {
             display: none;
         }
@@ -214,7 +224,7 @@
 
     /*-----CURSOS----*/
     .cursos {
-        padding: 5%;
+        padding: 2%;
         max-width: 100%;
 
         &__texto {
@@ -232,7 +242,8 @@
         &__articulos {
             margin: auto;
             margin-top: 2rem;
-            max-width: 65vw;
+            margin-bottom: 2rem;
+            max-width: 80vw;
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
