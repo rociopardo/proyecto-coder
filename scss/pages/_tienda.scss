@@ -39,6 +39,15 @@
                 border-color: $color_principal;
                 border-style: solid;
                 border-radius: 10px;
+                &:hover {
+                    color: $color_terciario;
+                    border-width: 0.1rem;
+                    padding: 0.5rem;
+                    border-color: $color_principal;
+                    background-color: $color_principal;
+                    border-style: solid;
+                    border-radius: 10px;
+                }
             }
         }
 
@@ -100,7 +109,8 @@
                 border-style: solid;
                 border-radius: 10px;
             }
-            & article{
+
+            & article {
                 margin-bottom: 1rem;
             }
         }

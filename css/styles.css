@@ -255,18 +255,31 @@ video {
   .delicatessen__articulos {
     position: relative;
   }
+  .delicatessen__articulos a {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+  }
   .delicatessen__titulos {
     position: absolute;
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .delicatessen__img-grande {
     grid-row: 1/3;
+  }
+  .delicatessen__img-grande a {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    position: relative;
   }
   /*-----CATERING----*/
   .catering {
     background-color: #ffeecd;
     max-height: 50vh;
+    margin: auto;
     padding: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -290,6 +303,15 @@ video {
     border-color: #e5a571;
     border-style: solid;
     border-radius: 10px;
+  }
+  .catering__btn:hover {
+    border-width: 0.1rem;
+    padding: 0.5rem;
+    background-color: #cad6ae;
+    border-color: #e5a571;
+    border-style: solid;
+    border-radius: 10px;
+    color: #ffeecd;
   }
   /*-----CURSOS----*/
   .cursos {
@@ -318,6 +340,15 @@ video {
     border-width: 0.1rem;
     padding: 0.5rem;
     border-color: #e5a571;
+    border-style: solid;
+    border-radius: 10px;
+  }
+  .cursos__btn:hover {
+    color: #cad6ae;
+    border-width: 0.1rem;
+    padding: 0.5rem;
+    border-color: #e5a571;
+    background-color: #ffeecd;
     border-style: solid;
     border-radius: 10px;
   }
@@ -480,6 +511,17 @@ video {
     max-width: 30vw;
     margin-top: 4rem;
   }
+  .catering__contenido .catering__texto h2 {
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  .catering__contenido .catering__texto h3 {
+    color: #e5a571;
+    font-style: italic;
+  }
+  .catering__contenido .catering__texto-descarga {
+    color: rgb(121, 121, 121);
+  }
   .catering__contenido img {
     max-width: 30vw;
   }
@@ -539,6 +581,15 @@ video {
     border-width: 0.1rem;
     padding: 0.5rem;
     border-color: #e5a571;
+    border-style: solid;
+    border-radius: 10px;
+  }
+  .tienda__delicatessen .tienda__btn:hover {
+    color: #ffeecd;
+    border-width: 0.1rem;
+    padding: 0.5rem;
+    border-color: #e5a571;
+    background-color: #e5a571;
     border-style: solid;
     border-radius: 10px;
   }

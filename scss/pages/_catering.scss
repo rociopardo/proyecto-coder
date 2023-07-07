@@ -33,6 +33,17 @@
             & .catering__texto {
                 max-width: 30vw;
                 margin-top: 4rem;
+                & h2{
+                    font-weight: bold;
+                    font-size: 2.5rem;
+                }
+                & h3{
+                    color: $color_principal;
+                    font-style: italic;
+                }
+                &-descarga{
+                    color: rgb(121, 121, 121);
+                }
             }
 
             & img {
