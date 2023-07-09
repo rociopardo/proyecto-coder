@@ -37,6 +37,23 @@
                 margin-top: 1rem;
 
             }
+            & .btn{
+            border-width: 0.1rem;
+            padding: 0.5rem;
+            border-color: $color_principal;
+            border-style: solid;
+            border-radius: 10px;
+
+            &:hover {
+                border-width: 0.1rem;
+                padding: 0.5rem;
+                background-color: $color_secundario;
+                border-color: $color_principal;
+                border-style: solid;
+                border-radius: 10px;
+                color: $color_terciario;
+            }
+        }
         }
 
     }
@@ -89,6 +106,23 @@
 
             &-celdas {
                 margin-top: 1rem;
+            }
+            & .btn{
+                border-width: 0.1rem;
+                padding: 0.5rem;
+                border-color: $color_principal;
+                border-style: solid;
+                border-radius: 10px;
+    
+                &:hover {
+                    border-width: 0.1rem;
+                    padding: 0.5rem;
+                    background-color: $color_secundario;
+                    border-color: $color_principal;
+                    border-style: solid;
+                    border-radius: 10px;
+                    color: $color_terciario;
+                }
             }
         }
 
