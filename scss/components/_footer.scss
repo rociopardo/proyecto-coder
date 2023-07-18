@@ -1,6 +1,6 @@
 @media (min-width: 1024px) {
     footer {
-        background-color:$color_terciario;
+        background-color: $color_terciario;
         text-decoration: none;
         height: 20vh;
         display: flex;
@@ -34,6 +34,37 @@
             gap: 1rem;
             justify-items: center;
             align-items: center;
+
+            & #Enviar {
+                border-width: 0.1rem;
+                padding: 0.5rem;
+                border-color: $color_principal;
+                border-style: solid;
+                border-radius: 10px;
+                background-color: $color_terciario;
+                font-family: $font;
+            }
+
+            & #Enviar:hover {
+                color: $color_principal;
+                border-width: 0.1rem;
+                padding: 0.5rem;
+                border-color: $color_secundario;
+                border-style: solid;
+                border-radius: 10px;
+                background-color: $color_terciario;
+            }
+
+            & #email-footer {
+                font-family: $font;
+                border-width: 0.1rem;
+                padding: 0.5rem;
+                border-color: $color_principal;
+                border-style: solid;
+                border-radius: 10px;
+                background-color: $color_terciario;
+                max-width: 100%;
+            }
         }
 
         &-enviar {
@@ -46,6 +77,10 @@
 .redes {
     display: flex;
     flex-direction: column;
+
+    & h3 {
+        font-size: 1.5rem;
+    }
 
     &__iconos {
         display: grid;
@@ -147,7 +182,7 @@
                 flex-wrap: nowrap;
                 gap: 0.9rem;
             }
-            }
+        }
     }
 
 

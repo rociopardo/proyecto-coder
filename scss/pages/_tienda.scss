@@ -39,6 +39,7 @@
                 border-color: $color_principal;
                 border-style: solid;
                 border-radius: 10px;
+
                 &:hover {
                     color: $color_terciario;
                     border-width: 0.1rem;
@@ -58,6 +59,22 @@
             gap: 1rem;
             justify-items: center;
             align-items: center;
+
+            & .precio {
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: $color_principal;
+                margin-top: 1rem;
+            }
+
+            & .numero {
+                border-width: 0.1rem;
+                padding: 0.5rem;
+                border-color: $color_principal;
+                border-style: solid;
+                border-radius: 10px;
+
+            }
         }
     }
 }
