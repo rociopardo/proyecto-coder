@@ -105,13 +105,229 @@
 
 }
 
-@media (min-width: 421px) and (max-width: 1023px) {}
+@media (min-width: 766px) and (max-width: 1024px) {
+    footer {
+        background-color: $color_terciario;
+        text-decoration: none;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+
+
+        & h4 {
+            font-size: 1rem;
+        }
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        justify-items: center;
+        align-items: center;
+        max-width: 90%;
+        margin: auto;
+
+        &__logo {
+            max-width: 15rem;
+            justify-items: center;
+            align-items: center;
+        }
+
+        &-form {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            grid-template-rows: 1fr;
+            gap: 1rem;
+            justify-items: center;
+            align-items: center;
+
+            & #Enviar {
+                border-width: 0.1rem;
+                padding: 0.5rem;
+                border-color: $color_principal;
+                border-style: solid;
+                border-radius: 10px;
+                background-color: $color_terciario;
+                font-family: $font;
+            }
+
+            & #Enviar:hover {
+                color: $color_principal;
+                border-width: 0.1rem;
+                padding: 0.5rem;
+                border-color: $color_secundario;
+                border-style: solid;
+                border-radius: 10px;
+                background-color: $color_terciario;
+            }
+
+            & #email-footer {
+                font-family: $font;
+                border-width: 0.1rem;
+                padding: 0.5rem;
+                border-color: $color_principal;
+                border-style: solid;
+                border-radius: 10px;
+                background-color: $color_terciario;
+                max-width: 100%;
+            }
+        }
+
+        &-enviar {
+            grid-column: 2/3;
+        }
+    }
+
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+
+
+    & h3 {
+        font-size: 1.5rem;
+        margin-left: 1rem;
+
+    }
+
+    &__iconos {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        gap: 1rem;
+        max-width: 3rem;
+        min-width: 2rem;
+        align-items: center;
+        justify-items: center;
+
+        & img {
+            max-width: 20%;
+        }
+
+        & li {
+            display: flex;
+            flex-direction: rown;
+            flex-wrap: nowrap;
+            gap: 0.9rem;
+        }
+    }
+}
+
+@media (min-width: 422px) and (max-width: 766px) {
+    footer {
+        background-color: $color_terciario;
+        text-decoration: none;
+        height: 55vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        & h4 {
+            font-size: 1rem;
+        }
+
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-items: center;
+        align-items: center;
+        max-width: 100%;
+
+        &__logo {
+            margin-top: 2rem;
+            max-width: 15rem;
+            justify-items: center;
+            align-items: center;
+        }
+
+        &-form {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            grid-template-rows: 1fr;
+            gap: 1rem;
+            justify-items: center;
+            align-items: center;
+
+            & #Enviar {
+                border-width: 0.1rem;
+                padding: 0.5rem;
+                border-color: $color_principal;
+                border-style: solid;
+                border-radius: 10px;
+                background-color: $color_terciario;
+                font-family: $font;
+            }
+
+            & #Enviar:hover {
+                color: $color_principal;
+                border-width: 0.1rem;
+                padding: 0.5rem;
+                border-color: $color_secundario;
+                border-style: solid;
+                border-radius: 10px;
+                background-color: $color_terciario;
+            }
+
+            & #email-footer {
+                font-family: $font;
+                border-width: 0.1rem;
+                padding: 0.5rem;
+                border-color: $color_principal;
+                border-style: solid;
+                border-radius: 10px;
+                background-color: $color_terciario;
+                max-width: 100%;
+            }
+
+
+        }
+
+        &-enviar {
+            grid-column: 2/3;
+        }
+
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+
+        &__iconos {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            gap: 1rem;
+            max-width: 3rem;
+            min-width: 2rem;
+            align-items: center;
+            justify-items: center;
+
+            & img {
+                max-width: 20%;
+            }
+
+            & li {
+                display: flex;
+                flex-direction: rown;
+                flex-wrap: nowrap;
+                gap: 0.9rem;
+            }
+        }
+    }
+
+
+}
 
 
 
-
-
-@media (min-width: 375px) and (max-width: 420px) {
+@media (min-width: 375px) and (max-width: 422px) {
 
     footer {
         background-color: $color_terciario;
@@ -151,6 +367,39 @@
             gap: 1rem;
             justify-items: center;
             align-items: center;
+
+            & #Enviar {
+                border-width: 0.1rem;
+                padding: 0.5rem;
+                border-color: $color_principal;
+                border-style: solid;
+                border-radius: 10px;
+                background-color: $color_terciario;
+                font-family: $font;
+            }
+
+            & #Enviar:hover {
+                color: $color_principal;
+                border-width: 0.1rem;
+                padding: 0.5rem;
+                border-color: $color_secundario;
+                border-style: solid;
+                border-radius: 10px;
+                background-color: $color_terciario;
+            }
+
+            & #email-footer {
+                font-family: $font;
+                border-width: 0.1rem;
+                padding: 0.5rem;
+                border-color: $color_principal;
+                border-style: solid;
+                border-radius: 10px;
+                background-color: $color_terciario;
+                max-width: 100%;
+            }
+
+
         }
 
         &-enviar {

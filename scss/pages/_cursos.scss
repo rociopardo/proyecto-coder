@@ -55,7 +55,7 @@
         }
     }
 
-    #cursos__curso-uno {
+    .cursos__curso-uno {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 10vh 1fr 10vh 10vh;
@@ -75,15 +75,9 @@
     }
 }
 
-@media (min-width: 421px) and (max-width: 1023px) {}
-
-
-
-
-
-@media (min-width: 375px) and (max-width: 420px) {
+@media (min-width: 422px) and (max-width: 1024px) {
     .cursos {
-        max-width: 80vw;
+        max-width: 90vw;
         margin: auto;
         margin-bottom: 1rem;
         margin-top: 1rem;
@@ -104,13 +98,78 @@
 
             & h1 {
                 color: white;
-                font-size: 2rem;
+                font-size: 4rem;
                 font-weight: bold;
             }
         }
 
-        &__nav {
-            display: none;
+        &__curso-uno h2 {
+            margin-top: 1rem;
+
+        }
+
+        &__cantidad {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            margin: auto;
+            margin-bottom: 2rem;
+
+            & .precio {
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: $color_principal;
+                margin-top: 1rem;
+            }
+
+            & .numero {
+                border-width: 0.1rem;
+                padding: 0.5rem;
+                border-color: $color_principal;
+                border-style: solid;
+                border-radius: 10px;
+            }
+        }
+
+
+    }
+
+}
+
+
+
+@media (min-width: 375px) and (max-width: 422px) {
+    .cursos {
+        max-width: 90vw;
+        margin: auto;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        text-align: center;
+
+        &__banner {
+            height: 30vh;
+            background-image: url(../img/banner-cursos_mobile.jpg);
+            max-width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            & h1 {
+                color: white;
+                font-size: 4rem;
+                font-weight: bold;
+            }
+        }
+
+        &__curso-uno h2 {
+            margin-top: 1rem;
+
         }
 
         &__cantidad {
@@ -121,6 +180,21 @@
             justify-items: center;
             align-items: center;
             margin-bottom: 1rem;
+
+            & .precio {
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: $color_principal;
+                margin-top: 1rem;
+            }
+
+            & .numero {
+                border-width: 0.1rem;
+                padding: 0.5rem;
+                border-color: $color_principal;
+                border-style: solid;
+                border-radius: 10px;
+            }
         }
 
 

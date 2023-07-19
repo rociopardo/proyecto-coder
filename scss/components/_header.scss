@@ -36,13 +36,84 @@
 }
 
 
-@media (min-width: 421px) and (max-width: 1023px) {}
+@media (min-width: 766px) and (max-width: 1024px) {
+    header {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        justify-content: center;
+        align-content: center;
+
+        & nav.navbar {
+            grid-column: 2/3;
+            grid-row: 1/2;
+            align-content: right;
+            max-width: 3rem;
+            margin: auto;
+
+            & .offcanvas {
+                background-color: #cad6aeee;
+                font-size: 1.5rem;
+
+            }
+        }
+
+    }
+
+    .header {
+        &__logo {
+            width: 35vw;
+            margin: auto;
+            grid-column: 1/2;
+        }
+
+        &__nav {
+            display: none;
+        }
+    }
+}
 
 
+@media (min-width: 422px) and (max-width: 766px) {
+    header {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        justify-content: center;
+        align-content: center;
+
+        & nav.navbar {
+            grid-column: 2/3;
+            grid-row: 1/2;
+            align-content: right;
+            max-width: 3rem;
+            margin: auto;
+
+            & .offcanvas {
+                background-color: #cad6aeee;
+                font-size: 1.5rem;
+
+            }
+        }
+
+    }
+
+    .header {
+        &__logo {
+            width: 50vw;
+            margin: auto;
+            grid-column: 1/2;
+        }
+
+        &__nav {
+            display: none;
+        }
+    }
+
+}
 
 
-
-@media (min-width: 375px) and (max-width: 420px) {
+@media (min-width: 375px) and (max-width: 422px) {
     header {
         max-width: 100%;
         display: grid;

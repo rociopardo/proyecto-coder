@@ -57,13 +57,117 @@
     }
 }
 
-@media (min-width: 421px) and (max-width: 1023px) {}
+@media (min-width: 766px) and (max-width: 1024px) {
+
+    .catering {
+        &__banner {
+            height: 30vh;
+            background-image: url(../img/banner-catering.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            & h1 {
+                color: white;
+                font-size: 5rem;
+                font-weight: bold;
+            }
+        }
+
+        &__contenido {
+            max-width: 90%;
+            margin: auto;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+
+            & .catering__texto {
+                margin-top: 4rem;
 
 
+                & h2 {
+                    font-weight: bold;
+                    font-size: 2.5rem;
+                }
+
+                & h3 {
+                    color: $color_principal;
+                    font-style: italic;
+                }
+
+                &-descarga {
+                    color: rgb(121, 121, 121);
+                }
+            }
+
+            & img {
+                max-width: 100%;
+            }
+        }
+    }
+
+}
 
 
+@media (min-width: 422px) and (max-width: 766px) {
+    .catering {
+        &__banner {
+            height: 30vh;
+            background-image: url(../img/banner-catering.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
 
-@media (min-width: 375px) and (max-width: 420px) {
+            & h1 {
+                color: white;
+                font-size: 5rem;
+                font-weight: bold;
+            }
+        }
+
+        &__contenido {
+            max-width: 90%;
+            margin: auto;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+
+            & .catering__texto {
+                margin-top: 4rem;
+
+
+                & h2 {
+                    font-weight: bold;
+                    font-size: 2.5rem;
+                }
+
+                & h3 {
+                    color: $color_principal;
+                    font-style: italic;
+                }
+
+                &-descarga {
+                    color: rgb(121, 121, 121);
+                }
+            }
+
+            & img {
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 375px) and (max-width: 422px) {
     .catering {
         &__banner {
             height: 30vh;
