@@ -167,7 +167,7 @@
 
 }
 
-@media (min-width: 766px) and (max-width: 1023px) {
+@media (min-width: 766px) and (max-width: 1024px) {
     .banner__titulo {
         position: absolute;
         text-align: left;
@@ -338,7 +338,7 @@
 
 }
 
-@media (min-width: 421px) and (max-width: 765px) {
+@media (min-width: 422px) and (max-width: 766px) {
     .banner__titulo {
         position: absolute;
         text-align: left;
@@ -392,7 +392,7 @@
         &__titulos {
             position: absolute;
             color: white;
-            font-size: 1.5rem;
+            font-size: 2rem;
         }
 
         &__img-grande {
@@ -474,6 +474,11 @@
             & h3 {
                 margin-top: 1rem;
                 color: $color_principal;
+                font-size: 2rem;
+            }
+
+            & p {
+                font-size: 1.5rem;
             }
         }
 
@@ -491,7 +496,7 @@
 
 
 
-@media (min-width: 375px) and (max-width: 420px) {
+@media (min-width: 375px) and (max-width: 422px) {
     .banner__titulo {
         position: absolute;
         text-align: left;
@@ -523,9 +528,8 @@
         }
 
         &__contenedor {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 240px 1fr 1fr;
+            display: flex;
+            flex-direction: column;
             gap: 0.3rem;
             align-items: center;
             justify-content: center;
@@ -545,7 +549,7 @@
         &__titulos {
             position: absolute;
             color: white;
-            font-size: 1.5rem;
+            font-size: 2rem;
         }
 
         &__img-grande {

@@ -33,6 +33,10 @@
                 margin-top: 1rem;
             }
 
+            & p {
+                font-size: 1.2rem;
+            }
+
             & .tienda__btn {
                 border-width: 0.1rem;
                 padding: 0.5rem;
@@ -79,9 +83,182 @@
     }
 }
 
-@media (min-width: 421px) and (max-width: 1023px) {}
+@media (min-width: 766px) and (max-width: 1024px) {
+    .tienda {
+        &__banner {
+            height: 30vh;
+            background-image: url(../img/banner-tienda.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            & h1 {
+                color: white;
+                font-size: 5rem;
+                font-weight: bold;
+            }
+        }
+
+        &__delicatessen {
+            max-width: 80vw;
+            margin: auto;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+
+            & h2 {
+                gap: 1rem;
+                margin-top: 1rem;
+            }
+
+            & p {
+                font-size: 1.2rem;
+            }
+
+            & .tienda__btn {
+                border-width: 0.1rem;
+                padding: 0.5rem;
+                border-color: $color_principal;
+                border-style: solid;
+                border-radius: 10px;
+
+                &:hover {
+                    color: $color_terciario;
+                    border-width: 0.1rem;
+                    padding: 0.5rem;
+                    border-color: $color_principal;
+                    background-color: $color_principal;
+                    border-style: solid;
+                    border-radius: 10px;
+                }
+            }
+        }
+
+        &__cantidad {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-items: center;
+            align-items: center;
+
+            & .precio {
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: $color_principal;
+                margin-top: 1rem;
+            }
+
+            & .numero {
+                border-width: 0.1rem;
+                padding: 0.5rem;
+                border-color: $color_principal;
+                border-style: solid;
+                border-radius: 10px;
+
+            }
+        }
+    }
 
 
+}
+
+
+
+
+@media (min-width: 420px) and (max-width: 766px) {
+    .tienda {
+        &__banner {
+            height: 30vh;
+            background-image: url(../img/banner-tienda.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            & h1 {
+                color: white;
+                font-size: 5rem;
+                font-weight: bold;
+            }
+        }
+
+        &__delicatessen {
+            max-width: 80vw;
+            margin: auto;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            display: grid;
+            text-align: center;
+            gap: 2rem;
+
+            & h2 {
+                gap: 2.5rem;
+                margin-top: 1rem;
+            }
+
+            & p {
+                font-size: 1.5rem;
+            }
+
+            & .tienda__btn {
+                border-width: 0.1rem;
+                padding: 0.5rem;
+                border-color: $color_principal;
+                border-style: solid;
+                border-radius: 10px;
+
+                &:hover {
+                    color: $color_terciario;
+                    border-width: 0.1rem;
+                    padding: 0.5rem;
+                    border-color: $color_principal;
+                    background-color: $color_principal;
+                    border-style: solid;
+                    border-radius: 10px;
+                }
+            }
+        }
+
+        &__cantidad {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-items: center;
+            align-items: center;
+
+
+            & .precio {
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: $color_principal;
+                margin-top: 1rem;
+            }
+
+            & .numero {
+                border-width: 0.1rem;
+                padding: 0.5rem;
+                border-color: $color_principal;
+                border-style: solid;
+                border-radius: 10px;
+
+            }
+        }
+    }
+
+}
 
 
 
@@ -139,6 +316,23 @@
             gap: 1rem;
             justify-items: center;
             align-items: center;
+
+
+            & .precio {
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: $color_principal;
+                margin-top: 1rem;
+            }
+
+            & .numero {
+                border-width: 0.1rem;
+                padding: 0.5rem;
+                border-color: $color_principal;
+                border-style: solid;
+                border-radius: 10px;
+
+            }
         }
     }
 }

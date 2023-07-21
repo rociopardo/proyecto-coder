@@ -50,9 +50,11 @@ video {
     justify-items: center;
     align-items: center;
   }
+
   header nav.navbar {
     display: none;
   }
+
   .header__nav {
     display: grid;
     gap: 2rem;
@@ -63,15 +65,18 @@ video {
     font-size: 1rem;
     text-transform: uppercase;
   }
+
   .header__logo {
     max-width: 15rem;
     justify-items: center;
     align-items: center;
   }
+
   .header_banner {
     z-index: -1;
   }
 }
+
 @media (min-width: 766px) and (max-width: 1024px) {
   header {
     max-width: 100%;
@@ -80,6 +85,7 @@ video {
     justify-content: center;
     align-content: center;
   }
+
   header nav.navbar {
     grid-column: 2/3;
     grid-row: 1/2;
@@ -87,19 +93,23 @@ video {
     max-width: 3rem;
     margin: auto;
   }
+
   header nav.navbar .offcanvas {
     background-color: rgba(202, 214, 174, 0.9333333333);
     font-size: 1.5rem;
   }
+
   .header__logo {
     width: 35vw;
     margin: auto;
     grid-column: 1/2;
   }
+
   .header__nav {
     display: none;
   }
 }
+
 @media (min-width: 422px) and (max-width: 766px) {
   header {
     max-width: 100%;
@@ -108,6 +118,7 @@ video {
     justify-content: center;
     align-content: center;
   }
+
   header nav.navbar {
     grid-column: 2/3;
     grid-row: 1/2;
@@ -115,19 +126,23 @@ video {
     max-width: 3rem;
     margin: auto;
   }
+
   header nav.navbar .offcanvas {
     background-color: rgba(202, 214, 174, 0.9333333333);
     font-size: 1.5rem;
   }
+
   .header__logo {
     width: 50vw;
     margin: auto;
     grid-column: 1/2;
   }
+
   .header__nav {
     display: none;
   }
 }
+
 @media (min-width: 375px) and (max-width: 422px) {
   header {
     max-width: 100%;
@@ -136,6 +151,7 @@ video {
     justify-content: center;
     align-content: center;
   }
+
   header nav.navbar {
     grid-column: 2/3;
     grid-row: 1/2;
@@ -143,19 +159,23 @@ video {
     max-width: 3rem;
     margin: auto;
   }
+
   header nav.navbar .offcanvas {
     background-color: rgba(202, 214, 174, 0.9333333333);
     font-size: 1.5rem;
   }
+
   .header__logo {
     width: 50vw;
     margin: auto;
     grid-column: 1/2;
   }
+
   .header__nav {
     display: none;
   }
 }
+
 @media (min-width: 1024px) {
   footer {
     background-color: #ffeecd;
@@ -166,9 +186,11 @@ video {
     justify-content: center;
     flex-wrap: wrap;
   }
+
   footer h4 {
     font-size: 1rem;
   }
+
   .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -177,11 +199,13 @@ video {
     align-items: center;
     max-width: 90%;
   }
+
   .footer__logo {
     max-width: 15rem;
     justify-items: center;
     align-items: center;
   }
+
   .footer-form {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -190,6 +214,7 @@ video {
     justify-items: center;
     align-items: center;
   }
+
   .footer-form #Enviar {
     border-width: 0.1rem;
     padding: 0.5rem;
@@ -199,6 +224,7 @@ video {
     background-color: #ffeecd;
     font-family: "Josefin Sans", sans-serif;
   }
+
   .footer-form #Enviar:hover {
     color: #e5a571;
     border-width: 0.1rem;
@@ -208,6 +234,7 @@ video {
     border-radius: 10px;
     background-color: #ffeecd;
   }
+
   .footer-form #email-footer {
     font-family: "Josefin Sans", sans-serif;
     border-width: 0.1rem;
@@ -218,17 +245,21 @@ video {
     background-color: #ffeecd;
     max-width: 100%;
   }
+
   .footer-enviar {
     grid-column: 2/3;
   }
 }
+
 .redes {
   display: flex;
   flex-direction: column;
 }
+
 .redes h3 {
   font-size: 1.5rem;
 }
+
 .redes__iconos {
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -238,9 +269,11 @@ video {
   align-items: center;
   justify-items: center;
 }
+
 .redes__iconos img {
   max-width: 20%;
 }
+
 .redes__iconos li {
   display: flex;
   flex-direction: rown;
@@ -258,9 +291,11 @@ video {
     justify-content: center;
     flex-wrap: wrap;
   }
+
   footer h4 {
     font-size: 1rem;
   }
+
   .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -270,11 +305,13 @@ video {
     max-width: 90%;
     margin: auto;
   }
+
   .footer__logo {
     max-width: 15rem;
     justify-items: center;
     align-items: center;
   }
+
   .footer-form {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -283,6 +320,7 @@ video {
     justify-items: center;
     align-items: center;
   }
+
   .footer-form #Enviar {
     border-width: 0.1rem;
     padding: 0.5rem;
@@ -292,6 +330,7 @@ video {
     background-color: #ffeecd;
     font-family: "Josefin Sans", sans-serif;
   }
+
   .footer-form #Enviar:hover {
     color: #e5a571;
     border-width: 0.1rem;
@@ -301,6 +340,7 @@ video {
     border-radius: 10px;
     background-color: #ffeecd;
   }
+
   .footer-form #email-footer {
     font-family: "Josefin Sans", sans-serif;
     border-width: 0.1rem;
@@ -311,18 +351,22 @@ video {
     background-color: #ffeecd;
     max-width: 100%;
   }
+
   .footer-enviar {
     grid-column: 2/3;
   }
 }
+
 .redes {
   display: flex;
   flex-direction: column;
 }
+
 .redes h3 {
   font-size: 1.5rem;
   margin-left: 1rem;
 }
+
 .redes__iconos {
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -332,9 +376,11 @@ video {
   align-items: center;
   justify-items: center;
 }
+
 .redes__iconos img {
   max-width: 20%;
 }
+
 .redes__iconos li {
   display: flex;
   flex-direction: rown;
@@ -352,9 +398,11 @@ video {
     justify-content: center;
     flex-wrap: wrap;
   }
+
   footer h4 {
     font-size: 1rem;
   }
+
   .footer {
     display: flex;
     flex-direction: column;
@@ -364,12 +412,14 @@ video {
     align-items: center;
     max-width: 100%;
   }
+
   .footer__logo {
     margin-top: 2rem;
     max-width: 15rem;
     justify-items: center;
     align-items: center;
   }
+
   .footer-form {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -378,6 +428,7 @@ video {
     justify-items: center;
     align-items: center;
   }
+
   .footer-form #Enviar {
     border-width: 0.1rem;
     padding: 0.5rem;
@@ -387,6 +438,7 @@ video {
     background-color: #ffeecd;
     font-family: "Josefin Sans", sans-serif;
   }
+
   .footer-form #Enviar:hover {
     color: #e5a571;
     border-width: 0.1rem;
@@ -396,6 +448,7 @@ video {
     border-radius: 10px;
     background-color: #ffeecd;
   }
+
   .footer-form #email-footer {
     font-family: "Josefin Sans", sans-serif;
     border-width: 0.1rem;
@@ -406,13 +459,16 @@ video {
     background-color: #ffeecd;
     max-width: 100%;
   }
+
   .footer-enviar {
     grid-column: 2/3;
   }
+
   .redes {
     display: flex;
     flex-direction: column;
   }
+
   .redes__iconos {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -422,9 +478,11 @@ video {
     align-items: center;
     justify-items: center;
   }
+
   .redes__iconos img {
     max-width: 20%;
   }
+
   .redes__iconos li {
     display: flex;
     flex-direction: rown;
@@ -432,6 +490,7 @@ video {
     gap: 0.9rem;
   }
 }
+
 @media (min-width: 375px) and (max-width: 422px) {
   footer {
     background-color: #ffeecd;
@@ -442,9 +501,11 @@ video {
     justify-content: center;
     flex-wrap: wrap;
   }
+
   footer h4 {
     font-size: 1rem;
   }
+
   .footer {
     display: flex;
     flex-direction: column;
@@ -454,12 +515,14 @@ video {
     align-items: center;
     max-width: 100%;
   }
+
   .footer__logo {
     margin-top: 2rem;
     max-width: 15rem;
     justify-items: center;
     align-items: center;
   }
+
   .footer-form {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -468,6 +531,7 @@ video {
     justify-items: center;
     align-items: center;
   }
+
   .footer-form #Enviar {
     border-width: 0.1rem;
     padding: 0.5rem;
@@ -477,6 +541,7 @@ video {
     background-color: #ffeecd;
     font-family: "Josefin Sans", sans-serif;
   }
+
   .footer-form #Enviar:hover {
     color: #e5a571;
     border-width: 0.1rem;
@@ -486,6 +551,7 @@ video {
     border-radius: 10px;
     background-color: #ffeecd;
   }
+
   .footer-form #email-footer {
     font-family: "Josefin Sans", sans-serif;
     border-width: 0.1rem;
@@ -496,13 +562,16 @@ video {
     background-color: #ffeecd;
     max-width: 100%;
   }
+
   .footer-enviar {
     grid-column: 2/3;
   }
+
   .redes {
     display: flex;
     flex-direction: column;
   }
+
   .redes__iconos {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -512,9 +581,11 @@ video {
     align-items: center;
     justify-items: center;
   }
+
   .redes__iconos img {
     max-width: 20%;
   }
+
   .redes__iconos li {
     display: flex;
     flex-direction: rown;
@@ -522,6 +593,7 @@ video {
     gap: 0.9rem;
   }
 }
+
 @media (min-width: 1024px) {
   .banner__titulo {
     position: absolute;
@@ -533,15 +605,18 @@ video {
     color: aliceblue;
     font-size: 5rem;
   }
+
   .video1 {
     max-height: 80vw;
     z-index: -1;
   }
+
   /*-----DELICATESSEN----*/
   .delicatessen {
     padding: 5%;
     max-width: 100%;
   }
+
   .delicatessen__contenedor {
     margin: auto;
     max-width: 90%;
@@ -551,42 +626,50 @@ video {
     gap: 1rem;
     align-items: center;
   }
+
   .delicatessen__articulos {
     position: relative;
     transform: scale(1);
     filter: grayscale(0%);
   }
+
   .delicatessen__articulos:hover {
     transform: scale(0.98);
     filter: grayscale(50%);
   }
+
   .delicatessen__articulos a {
     display: grid;
     align-items: center;
     justify-items: center;
     position: relative;
   }
+
   .delicatessen__titulos {
     position: absolute;
     color: #ffeecd;
     font-size: 2rem;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5921568627);
   }
+
   .delicatessen__img-grande {
     grid-row: 1/3;
     transform: scale(1);
     filter: grayscale(0%);
   }
+
   .delicatessen__img-grande:hover {
     transform: scale(0.98);
     filter: grayscale(50%);
   }
+
   .delicatessen__img-grande a {
     display: grid;
     align-items: center;
     justify-items: center;
     position: relative;
   }
+
   /*-----CATERING----*/
   .catering {
     background-color: #ffeecd;
@@ -594,6 +677,7 @@ video {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
   .catering__texto {
     max-width: 70%;
     margin: 1rem;
@@ -602,12 +686,14 @@ video {
     align-items: end;
     padding-left: 4rem;
   }
+
   .catering__img {
     max-width: 50%;
     grid-column: 2/3;
     grid-row: 1/2;
     justify-items: start;
   }
+
   .catering__btn {
     border-width: 0.1rem;
     padding: 0.5rem;
@@ -615,6 +701,7 @@ video {
     border-style: solid;
     border-radius: 10px;
   }
+
   .catering__btn:hover {
     border-width: 0.1rem;
     padding: 0.5rem;
@@ -624,15 +711,18 @@ video {
     border-radius: 10px;
     color: #ffeecd;
   }
+
   /*-----CURSOS----*/
   .cursos {
     padding: 5%;
     max-width: 100%;
   }
+
   .cursos__texto {
     max-width: 90%;
     margin: auto;
   }
+
   .cursos__articulos {
     margin: auto;
     margin-top: 2rem;
@@ -643,10 +733,12 @@ video {
     align-items: center;
     gap: 1rem;
   }
+
   .cursos__articulos h3 {
     margin-top: 1rem;
     color: #e5a571;
   }
+
   .cursos__btn {
     border-width: 0.1rem;
     padding: 0.5rem;
@@ -654,6 +746,7 @@ video {
     border-style: solid;
     border-radius: 10px;
   }
+
   .cursos__btn:hover {
     color: #cad6ae;
     border-width: 0.1rem;
@@ -664,7 +757,8 @@ video {
     border-radius: 10px;
   }
 }
-@media (min-width: 766px) and (max-width: 1023px) {
+
+@media (min-width: 766px) and (max-width: 1024px) {
   .banner__titulo {
     position: absolute;
     text-align: left;
@@ -677,16 +771,19 @@ video {
     font-weight: bold;
     line-height: 5rem;
   }
+
   .video1 {
     max-height: 100%;
     z-index: -1;
   }
+
   /*-----DELICATESSEN----*/
   .delicatessen {
     padding: 5%;
     max-width: 100%;
     text-align: center;
   }
+
   .delicatessen__contenedor {
     margin: auto;
     max-width: 90%;
@@ -696,57 +793,68 @@ video {
     gap: 1rem;
     align-items: center;
   }
+
   .delicatessen__articulos {
     position: relative;
     transform: scale(1);
     filter: grayscale(0%);
   }
+
   .delicatessen__articulos:hover {
     transform: scale(0.98);
     filter: grayscale(50%);
   }
+
   .delicatessen__articulos a {
     display: grid;
     align-items: center;
     justify-items: center;
     position: relative;
   }
+
   .delicatessen__titulos {
     position: absolute;
     color: #ffeecd;
     font-size: 2rem;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5921568627);
   }
+
   .delicatessen__img-grande {
     grid-row: 1/2;
     grid-column: 1/3;
     transform: scale(1);
     filter: grayscale(0%);
   }
+
   .delicatessen__img-grande:hover {
     transform: scale(0.98);
     filter: grayscale(50%);
   }
+
   .delicatessen__img-grande a {
     display: grid;
     align-items: center;
     justify-items: center;
     position: relative;
   }
+
   /*-----CATERING----*/
   .catering {
     background-color: #ffeecd;
     padding: 2rem;
   }
+
   .catering__texto {
     max-width: 90%;
     margin: 1rem;
     text-align: center;
     padding-left: 4rem;
   }
+
   .catering__img {
     display: none;
   }
+
   .catering__btn {
     border-width: 0.1rem;
     padding: 0.5rem;
@@ -754,6 +862,7 @@ video {
     border-style: solid;
     border-radius: 10px;
   }
+
   .catering__btn:hover {
     border-width: 0.1rem;
     padding: 0.5rem;
@@ -763,16 +872,19 @@ video {
     border-radius: 10px;
     color: #ffeecd;
   }
+
   /*-----CURSOS----*/
   .cursos {
     padding: 5%;
     max-width: 100%;
   }
+
   .cursos__texto {
     max-width: 90%;
     margin: auto;
     text-align: center;
   }
+
   .cursos__articulos {
     margin: auto;
     margin-top: 2rem;
@@ -783,10 +895,12 @@ video {
     align-items: center;
     gap: 1rem;
   }
+
   .cursos__articulos h3 {
     margin-top: 1rem;
     color: #e5a571;
   }
+
   .cursos__btn {
     border-width: 0.1rem;
     padding: 0.5rem;
@@ -794,6 +908,7 @@ video {
     border-style: solid;
     border-radius: 10px;
   }
+
   .cursos__btn:hover {
     color: #cad6ae;
     border-width: 0.1rem;
@@ -804,7 +919,8 @@ video {
     border-radius: 10px;
   }
 }
-@media (min-width: 421px) and (max-width: 765px) {
+
+@media (min-width: 422px) and (max-width: 766px) {
   .banner__titulo {
     position: absolute;
     text-align: left;
@@ -817,20 +933,24 @@ video {
     font-weight: bold;
     line-height: 2.7rem;
   }
+
   .video1 {
     max-height: 100%;
     z-index: -1;
   }
+
   /*-----DELICATESSEN----*/
   .delicatessen {
     padding: 5%;
     max-width: 100%;
   }
+
   .delicatessen__texto {
     max-width: 90%;
     margin: auto;
     text-align: center;
   }
+
   .delicatessen__contenedor {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -839,50 +959,61 @@ video {
     align-items: center;
     justify-content: center;
   }
+
   .delicatessen__articulos {
     position: relative;
   }
+
   .delicatessen__articulos a {
     display: grid;
     align-items: center;
     justify-items: center;
     position: relative;
   }
+
   .delicatessen__titulos {
     position: absolute;
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
+
   .delicatessen__img-grande {
     grid-row: 1/2;
     grid-column: 1/3;
   }
+
   .delicatessen__img-grande a {
     display: grid;
     align-items: center;
     justify-items: center;
     position: relative;
   }
+
   .delicatessen h2 {
     font-size: 2.5rem;
     color: #e5a571;
   }
+
   /*-----CATERING----*/
   .catering {
     background-color: rgb(244, 227, 202);
     max-height: 60vh;
     padding: 1rem;
   }
+
   .catering__texto {
     margin: 1rem;
     text-align: center;
   }
+
   .catering__texto h2 {
     font-size: 2.5rem;
   }
+
   .catering__img {
     display: none;
   }
+
   .catering__btn {
     border-width: 0.1rem;
     padding: 0.5rem;
@@ -890,21 +1021,25 @@ video {
     border-style: solid;
     border-radius: 10px;
   }
+
   /*-----CURSOS----*/
   .cursos {
     padding: 2%;
     max-width: 100%;
   }
+
   .cursos__texto {
     max-width: 90%;
     margin: auto;
     text-align: center;
   }
+
   .cursos__texto h2 {
     margin-top: 2rem;
     font-size: 2.5rem;
     color: #e5a571;
   }
+
   .cursos__articulos {
     margin: auto;
     margin-top: 2rem;
@@ -918,10 +1053,17 @@ video {
     gap: 1.5rem;
     text-align: center;
   }
+
   .cursos__articulos h3 {
     margin-top: 1rem;
     color: #e5a571;
+    font-size: 2rem;
   }
+
+  .cursos__articulos p {
+    font-size: 1.5rem;
+  }
+
   .cursos__btn {
     border-width: 0.1rem;
     padding: 0.5rem;
@@ -930,7 +1072,8 @@ video {
     border-radius: 10px;
   }
 }
-@media (min-width: 375px) and (max-width: 420px) {
+
+@media (min-width: 375px) and (max-width: 422px) {
   .banner__titulo {
     position: absolute;
     text-align: left;
@@ -943,72 +1086,86 @@ video {
     font-weight: bold;
     line-height: 2.7rem;
   }
+
   .video1 {
     max-height: 100%;
     z-index: -1;
   }
+
   /*-----DELICATESSEN----*/
   .delicatessen {
     padding: 5%;
     max-width: 100%;
   }
+
   .delicatessen__texto {
     max-width: 90%;
     margin: auto;
     text-align: center;
   }
+
   .delicatessen__contenedor {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 240px 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 0.3rem;
     align-items: center;
     justify-content: center;
   }
+
   .delicatessen__articulos {
     position: relative;
   }
+
   .delicatessen__articulos a {
     display: grid;
     align-items: center;
     justify-items: center;
     position: relative;
   }
+
   .delicatessen__titulos {
     position: absolute;
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
+
   .delicatessen__img-grande {
     grid-row: 1/2;
     grid-column: 1/3;
   }
+
   .delicatessen__img-grande a {
     display: grid;
     align-items: center;
     justify-items: center;
     position: relative;
   }
+
   .delicatessen h2 {
     font-size: 2.5rem;
     color: #e5a571;
   }
+
   /*-----CATERING----*/
   .catering {
     background-color: rgb(244, 227, 202);
     max-height: 60vh;
     padding: 1rem;
   }
+
   .catering__texto {
     margin: 1rem;
     text-align: center;
   }
+
   .catering__texto h2 {
     font-size: 2.5rem;
   }
+
   .catering__img {
     display: none;
   }
+
   .catering__btn {
     border-width: 0.1rem;
     padding: 0.5rem;
@@ -1016,21 +1173,25 @@ video {
     border-style: solid;
     border-radius: 10px;
   }
+
   /*-----CURSOS----*/
   .cursos {
     padding: 2%;
     max-width: 100%;
   }
+
   .cursos__texto {
     max-width: 90%;
     margin: auto;
     text-align: center;
   }
+
   .cursos__texto h2 {
     margin-top: 2rem;
     font-size: 2.5rem;
     color: #e5a571;
   }
+
   .cursos__articulos {
     margin: auto;
     margin-top: 2rem;
@@ -1044,10 +1205,12 @@ video {
     gap: 1.5rem;
     text-align: center;
   }
+
   .cursos__articulos h3 {
     margin-top: 1rem;
     color: #e5a571;
   }
+
   .cursos__btn {
     border-width: 0.1rem;
     padding: 0.5rem;
@@ -1056,6 +1219,7 @@ video {
     border-radius: 10px;
   }
 }
+
 @media (min-width: 1024px) {
   .catering__banner {
     height: 30vh;
@@ -1069,11 +1233,13 @@ video {
     justify-content: center;
     align-items: center;
   }
+
   .catering__banner h1 {
     color: white;
     font-size: 5rem;
     font-weight: bold;
   }
+
   .catering__contenido {
     max-width: 90%;
     margin: auto;
@@ -1084,26 +1250,32 @@ video {
     flex-direction: row;
     justify-content: center;
   }
+
   .catering__contenido .catering__texto {
     max-width: 30vw;
     margin-top: 4rem;
     text-align: left;
   }
+
   .catering__contenido .catering__texto h2 {
     font-weight: bold;
     font-size: 2.5rem;
   }
+
   .catering__contenido .catering__texto h3 {
     color: #e5a571;
     font-style: italic;
   }
+
   .catering__contenido .catering__texto-descarga {
     color: rgb(121, 121, 121);
   }
+
   .catering__contenido img {
     max-width: 30vw;
   }
 }
+
 @media (min-width: 766px) and (max-width: 1024px) {
   .catering__banner {
     height: 30vh;
@@ -1117,35 +1289,43 @@ video {
     justify-content: center;
     align-items: center;
   }
+
   .catering__banner h1 {
     color: white;
     font-size: 5rem;
     font-weight: bold;
   }
+
   .catering__contenido {
     max-width: 90%;
     margin: auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
+
   .catering__contenido .catering__texto {
     margin-top: 4rem;
   }
+
   .catering__contenido .catering__texto h2 {
     font-weight: bold;
     font-size: 2.5rem;
   }
+
   .catering__contenido .catering__texto h3 {
     color: #e5a571;
     font-style: italic;
   }
+
   .catering__contenido .catering__texto-descarga {
     color: rgb(121, 121, 121);
   }
+
   .catering__contenido img {
     max-width: 100%;
   }
 }
+
 @media (min-width: 422px) and (max-width: 766px) {
   .catering__banner {
     height: 30vh;
@@ -1159,35 +1339,43 @@ video {
     justify-content: center;
     align-items: center;
   }
+
   .catering__banner h1 {
     color: white;
     font-size: 5rem;
     font-weight: bold;
   }
+
   .catering__contenido {
     max-width: 90%;
     margin: auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
+
   .catering__contenido .catering__texto {
     margin-top: 4rem;
   }
+
   .catering__contenido .catering__texto h2 {
     font-weight: bold;
     font-size: 2.5rem;
   }
+
   .catering__contenido .catering__texto h3 {
     color: #e5a571;
     font-style: italic;
   }
+
   .catering__contenido .catering__texto-descarga {
     color: rgb(121, 121, 121);
   }
+
   .catering__contenido img {
     max-width: 100%;
   }
 }
+
 @media (min-width: 375px) and (max-width: 422px) {
   .catering__banner {
     height: 30vh;
@@ -1202,12 +1390,14 @@ video {
     justify-content: center;
     align-items: center;
   }
+
   .catering__banner h1 {
     color: white;
     font-size: 2rem;
     font-weight: bold;
   }
 }
+
 @media (min-width: 1024px) {
   .tienda__banner {
     height: 30vh;
@@ -1221,11 +1411,13 @@ video {
     justify-content: center;
     align-items: center;
   }
+
   .tienda__banner h1 {
     color: white;
     font-size: 5rem;
     font-weight: bold;
   }
+
   .tienda__delicatessen {
     max-width: 80vw;
     margin: auto;
@@ -1235,10 +1427,16 @@ video {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
   }
+
   .tienda__delicatessen h2 {
     gap: 1rem;
     margin-top: 1rem;
   }
+
+  .tienda__delicatessen p {
+    font-size: 1.2rem;
+  }
+
   .tienda__delicatessen .tienda__btn {
     border-width: 0.1rem;
     padding: 0.5rem;
@@ -1246,6 +1444,7 @@ video {
     border-style: solid;
     border-radius: 10px;
   }
+
   .tienda__delicatessen .tienda__btn:hover {
     color: #ffeecd;
     border-width: 0.1rem;
@@ -1255,6 +1454,7 @@ video {
     border-style: solid;
     border-radius: 10px;
   }
+
   .tienda__cantidad {
     display: flex;
     flex-direction: row;
@@ -1263,12 +1463,14 @@ video {
     justify-items: center;
     align-items: center;
   }
+
   .tienda__cantidad .precio {
     font-size: 1.5rem;
     font-weight: bold;
     color: #e5a571;
     margin-top: 1rem;
   }
+
   .tienda__cantidad .numero {
     border-width: 0.1rem;
     padding: 0.5rem;
@@ -1277,6 +1479,171 @@ video {
     border-radius: 10px;
   }
 }
+
+@media (min-width: 766px) and (max-width: 1024px) {
+  .tienda__banner {
+    height: 30vh;
+    background-image: url(../img/banner-tienda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tienda__banner h1 {
+    color: white;
+    font-size: 5rem;
+    font-weight: bold;
+  }
+
+  .tienda__delicatessen {
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .tienda__delicatessen h2 {
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .tienda__delicatessen p {
+    font-size: 1.2rem;
+  }
+
+  .tienda__delicatessen .tienda__btn {
+    border-width: 0.1rem;
+    padding: 0.5rem;
+    border-color: #e5a571;
+    border-style: solid;
+    border-radius: 10px;
+  }
+
+  .tienda__delicatessen .tienda__btn:hover {
+    color: #ffeecd;
+    border-width: 0.1rem;
+    padding: 0.5rem;
+    border-color: #e5a571;
+    background-color: #e5a571;
+    border-style: solid;
+    border-radius: 10px;
+  }
+
+  .tienda__cantidad {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .tienda__cantidad .precio {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e5a571;
+    margin-top: 1rem;
+  }
+
+  .tienda__cantidad .numero {
+    border-width: 0.1rem;
+    padding: 0.5rem;
+    border-color: #e5a571;
+    border-style: solid;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 420px) and (max-width: 766px) {
+  .tienda__banner {
+    height: 30vh;
+    background-image: url(../img/banner-tienda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tienda__banner h1 {
+    color: white;
+    font-size: 5rem;
+    font-weight: bold;
+  }
+
+  .tienda__delicatessen {
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .tienda__delicatessen h2 {
+    gap: 2.5rem;
+    margin-top: 1rem;
+  }
+
+  .tienda__delicatessen p {
+    font-size: 1.5rem;
+  }
+
+  .tienda__delicatessen .tienda__btn {
+    border-width: 0.1rem;
+    padding: 0.5rem;
+    border-color: #e5a571;
+    border-style: solid;
+    border-radius: 10px;
+  }
+
+  .tienda__delicatessen .tienda__btn:hover {
+    color: #ffeecd;
+    border-width: 0.1rem;
+    padding: 0.5rem;
+    border-color: #e5a571;
+    background-color: #e5a571;
+    border-style: solid;
+    border-radius: 10px;
+  }
+
+  .tienda__cantidad {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .tienda__cantidad .precio {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e5a571;
+    margin-top: 1rem;
+  }
+
+  .tienda__cantidad .numero {
+    border-width: 0.1rem;
+    padding: 0.5rem;
+    border-color: #e5a571;
+    border-style: solid;
+    border-radius: 10px;
+  }
+}
+
 @media (min-width: 375px) and (max-width: 420px) {
   .tienda__banner {
     height: 30vh;
@@ -1291,11 +1658,13 @@ video {
     justify-content: center;
     align-items: center;
   }
+
   .tienda__banner h1 {
     color: white;
     font-size: 2rem;
     font-weight: bold;
   }
+
   .tienda__delicatessen {
     max-width: 80vw;
     margin: auto;
@@ -1303,10 +1672,12 @@ video {
     margin-bottom: 2rem;
     text-align: center;
   }
+
   .tienda__delicatessen h2 {
     gap: 1rem;
     margin-top: 1rem;
   }
+
   .tienda__delicatessen .tienda__btn {
     border-width: 0.1rem;
     padding: 0.5rem;
@@ -1314,9 +1685,11 @@ video {
     border-style: solid;
     border-radius: 10px;
   }
+
   .tienda__delicatessen article {
     margin-bottom: 1rem;
   }
+
   .tienda__cantidad {
     display: flex;
     flex-direction: row;
@@ -1325,7 +1698,23 @@ video {
     justify-items: center;
     align-items: center;
   }
+
+  .tienda__cantidad .precio {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e5a571;
+    margin-top: 1rem;
+  }
+
+  .tienda__cantidad .numero {
+    border-width: 0.1rem;
+    padding: 0.5rem;
+    border-color: #e5a571;
+    border-style: solid;
+    border-radius: 10px;
+  }
 }
+
 @media (min-width: 1024px) {
   .contacto__banner {
     height: 30vh;
@@ -1339,11 +1728,13 @@ video {
     justify-content: center;
     align-items: center;
   }
+
   .contacto__banner h1 {
     color: white;
     font-size: 5rem;
     font-weight: bold;
   }
+
   .contacto__cuerpo {
     max-width: 90%;
     margin: auto;
@@ -1353,13 +1744,16 @@ video {
     justify-items: center;
     align-items: center;
   }
+
   .contacto__form {
     font-family: "Josefin Sans", sans-serif;
     color: rgb(50, 50, 50);
   }
+
   .contacto__form-celdas {
     margin-top: 1rem;
   }
+
   .contacto__form .btn {
     border-width: 0.1rem;
     padding: 0.5rem;
@@ -1367,6 +1761,7 @@ video {
     border-style: solid;
     border-radius: 10px;
   }
+
   .contacto__form .btn:hover {
     border-width: 0.1rem;
     padding: 0.5rem;
@@ -1377,6 +1772,7 @@ video {
     color: #ffeecd;
   }
 }
+
 @media (min-width: 422px) and (max-width: 1024px) {
   .contacto__banner {
     height: 30vh;
@@ -1391,11 +1787,13 @@ video {
     justify-content: center;
     align-items: center;
   }
+
   .contacto__banner h1 {
     color: white;
     font-size: 2rem;
     font-weight: bold;
   }
+
   .contacto__cuerpo {
     max-width: 90vw;
     margin: auto;
@@ -1405,6 +1803,7 @@ video {
     justify-items: center;
     align-items: center;
   }
+
   .contacto__form {
     font-family: "Josefin Sans", sans-serif;
     color: rgb(50, 50, 50);
@@ -1412,9 +1811,11 @@ video {
     margin-bottom: 1rem;
     text-align: center;
   }
+
   .contacto__form-celdas {
     margin-top: 1rem;
   }
+
   .contacto__form .btn {
     border-width: 0.1rem;
     padding: 0.5rem;
@@ -1422,6 +1823,7 @@ video {
     border-style: solid;
     border-radius: 10px;
   }
+
   .contacto__form .btn:hover {
     border-width: 0.1rem;
     padding: 0.5rem;
@@ -1431,11 +1833,13 @@ video {
     border-radius: 10px;
     color: #ffeecd;
   }
+
   .contacto__mapa {
     margin-top: 2rem;
     max-width: 95vw;
   }
 }
+
 @media (min-width: 375px) and (max-width: 422px) {
   .contacto__banner {
     height: 30vh;
@@ -1450,11 +1854,13 @@ video {
     justify-content: center;
     align-items: center;
   }
+
   .contacto__banner h1 {
     color: white;
     font-size: 2rem;
     font-weight: bold;
   }
+
   .contacto__cuerpo {
     max-width: 90vw;
     margin: auto;
@@ -1464,6 +1870,7 @@ video {
     justify-items: center;
     align-items: center;
   }
+
   .contacto__form {
     font-family: "Josefin Sans", sans-serif;
     color: rgb(50, 50, 50);
@@ -1471,9 +1878,11 @@ video {
     margin-bottom: 1rem;
     text-align: center;
   }
+
   .contacto__form-celdas {
     margin-top: 1rem;
   }
+
   .contacto__form .btn {
     border-width: 0.1rem;
     padding: 0.5rem;
@@ -1481,6 +1890,7 @@ video {
     border-style: solid;
     border-radius: 10px;
   }
+
   .contacto__form .btn:hover {
     border-width: 0.1rem;
     padding: 0.5rem;
@@ -1490,11 +1900,13 @@ video {
     border-radius: 10px;
     color: #ffeecd;
   }
+
   .contacto__mapa {
     margin-top: 2rem;
     max-width: 95vw;
   }
 }
+
 @media (min-width: 1024px) {
   .cursos__banner {
     height: 30vh;
@@ -1508,11 +1920,13 @@ video {
     justify-content: center;
     align-items: center;
   }
+
   .cursos__banner h1 {
     color: white;
     font-size: 5rem;
     font-weight: bold;
   }
+
   .cursos__nav {
     display: flex;
     flex-direction: row;
@@ -1521,6 +1935,7 @@ video {
     margin-top: 2rem;
     font-size: 1.5rem;
   }
+
   .cursos__cantidad {
     display: flex;
     flex-direction: row;
@@ -1529,12 +1944,14 @@ video {
     justify-items: center;
     align-items: center;
   }
+
   .cursos__cantidad .precio {
     font-size: 1.5rem;
     font-weight: bold;
     color: #e5a571;
     margin-top: 1rem;
   }
+
   .cursos__cantidad .numero {
     border-width: 0.1rem;
     padding: 0.5rem;
@@ -1542,22 +1959,26 @@ video {
     border-style: solid;
     border-radius: 10px;
   }
+
   .cursos__curso-uno {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 10vh 1fr 10vh 10vh;
     gap: 1rem;
   }
+
   .cursos__curso-uno a {
     max-width: 8vw;
     max-height: 5vh;
     text-align: center;
   }
+
   .cursos__curso-uno img {
     grid-column: 1/2;
     grid-row: 1/5;
   }
 }
+
 @media (min-width: 422px) and (max-width: 1024px) {
   .cursos {
     max-width: 90vw;
@@ -1566,6 +1987,7 @@ video {
     margin-top: 1rem;
     text-align: center;
   }
+
   .cursos__banner {
     height: 30vh;
     background-image: url(../img/banner-cursos_mobile.jpg);
@@ -1579,14 +2001,17 @@ video {
     justify-content: center;
     align-items: center;
   }
+
   .cursos__banner h1 {
     color: white;
     font-size: 4rem;
     font-weight: bold;
   }
+
   .cursos__curso-uno h2 {
     margin-top: 1rem;
   }
+
   .cursos__cantidad {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1595,12 +2020,14 @@ video {
     margin: auto;
     margin-bottom: 2rem;
   }
+
   .cursos__cantidad .precio {
     font-size: 1.5rem;
     font-weight: bold;
     color: #e5a571;
     margin-top: 1rem;
   }
+
   .cursos__cantidad .numero {
     border-width: 0.1rem;
     padding: 0.5rem;
@@ -1609,6 +2036,7 @@ video {
     border-radius: 10px;
   }
 }
+
 @media (min-width: 375px) and (max-width: 422px) {
   .cursos {
     max-width: 90vw;
@@ -1617,6 +2045,7 @@ video {
     margin-top: 1rem;
     text-align: center;
   }
+
   .cursos__banner {
     height: 30vh;
     background-image: url(../img/banner-cursos_mobile.jpg);
@@ -1630,14 +2059,17 @@ video {
     justify-content: center;
     align-items: center;
   }
+
   .cursos__banner h1 {
     color: white;
     font-size: 4rem;
     font-weight: bold;
   }
+
   .cursos__curso-uno h2 {
     margin-top: 1rem;
   }
+
   .cursos__cantidad {
     display: flex;
     flex-direction: row;
@@ -1647,12 +2079,14 @@ video {
     align-items: center;
     margin-bottom: 1rem;
   }
+
   .cursos__cantidad .precio {
     font-size: 1.5rem;
     font-weight: bold;
     color: #e5a571;
     margin-top: 1rem;
   }
+
   .cursos__cantidad .numero {
     border-width: 0.1rem;
     padding: 0.5rem;
